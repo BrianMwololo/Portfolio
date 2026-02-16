@@ -2,67 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Your Name | Full Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Software Engineer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">JS<span>.</span></div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header id="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
-            <p>Full-Stack Software Engineer specializing in scalable web applications.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
+    <!-- Navigation -->
+    <header>
+        <div class="logo">YourName</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="projects">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>E-Commerce Engine</h3>
-                    <p>A high-performance backend built with Node.js and PostgreSQL.</p>
-                    <div class="tags">
-                        <span>Node.js</span>
-                        <span>PostgreSQL</span>
-                        <span>Docker</span>
-                    </div>
-                    <a href="#" class="project-link">View Repo →</a>
-                </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Your Name</span></h1>
+                <h2>Full Stack Software Developer</h2>
+                <p>
+                    BSc Applied Computing | System Development & Data Management  
+                    Passionate about building scalable web applications.
+                </p>
+                <a href="#projects" class="btn">View My Work</a>
             </div>
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>AI Data Dashboard</h3>
-                    <p>Real-time data visualization tool using React and Python.</p>
-                    <div class="tags">
-                        <span>React</span>
-                        <span>Python</span>
-                        <span>AWS</span>
-                    </div>
-                    <a href="#" class="project-link">View Repo →</a>
-                </div>
+
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Your Name">
             </div>
         </div>
     </section>
 
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated Full Stack Developer with strong foundations in
+            frontend and backend technologies. I enjoy designing systems,
+            building APIs, and creating user-friendly interfaces.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section dark">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div class="card">
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, React, JavaScript</p>
+            </div>
+
+            <div class="card">
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, Python, PHP, Java, Kotlin</p>
+            </div>
+
+            <div class="card">
+                <h3>Database</h3>
+                <p>MongoDB, MySQL, Postgress</p>
+            </div>
+
+            <div class="card">
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code, Postman</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>🌳 Tree Management System</h3>
+                <p>Dashboard for tracking tree planting targets and achievements.</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🏨 Hotel Management System</h3>
+                <p>Room booking and analytics management platform.</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🔐 Authentication API</h3>
+                <p>Secure REST API with JWT authentication and protected routes.</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section dark">
+        <h2>Contact Me</h2>
+        <p>Email: brianmwololo89@gmail.com</p>
+        <p>GitHub: Brian Mwololo</p>
+        <p>LinkedIn: Brian Mwololo</p>
+    </section>
+
     <footer>
-        <p>&copy; 2026 Your Name. Built with precision and caffeine.</p>
+        <p>© 2026 Brian Mwololo | Full Stack Developer</p>
     </footer>
 
 </body>
